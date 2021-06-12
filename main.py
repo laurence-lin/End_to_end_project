@@ -3,11 +3,11 @@ from flask import Flask
 import os
 
 import numpy as np
-import panda as pd
+import pandas as pd
 
 
 
-app = Flask("app")
+app = Flask(__name__)
 
 @app.route("/", methods = ['GET'])
 def main():
