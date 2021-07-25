@@ -1,0 +1,9 @@
+
+建立部署程式：
+
+  pip freeze > requirements.txt
+
+
+
+執行streamlit APP:
+  streamlit run file_name.py
